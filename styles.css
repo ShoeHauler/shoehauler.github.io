@@ -2,6 +2,7 @@ body {
     margin: 0;
     background: white;
     text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
 } 
 
 .topribbon {
@@ -16,6 +17,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .topribbon a {
@@ -26,6 +28,7 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
   /* Change the color of links on hover */
