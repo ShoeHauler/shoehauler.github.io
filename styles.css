@@ -12,16 +12,16 @@ body {
 .topribbon h1 {
     float: left;
     color: #f2f2f2;
-    text-align: center;
+    text-align: left;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topribbon a {
-    float: right;
+    float: left;
     color: #f2f2f2;
-    text-align: center;
+    text-align: right;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
