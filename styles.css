@@ -45,6 +45,9 @@ body {
 .bottomribbon {
     background-color: #c8c7c7;
     overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .bottomribbon p {
