@@ -20,7 +20,7 @@ body {
 }
 
 .topribbon a {
-    float: left;
+    float: none;
     color: #f2f2f2;
     text-align: right;
     padding: 14px 16px;
