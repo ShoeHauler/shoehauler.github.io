@@ -29,7 +29,7 @@ body {
 .landing-page-conatiner-1 {
     background: #212020;
     height: 725;
-    width: 1280;
+    max-width: 100000px;
     background-image: url(Images/BackgroundImages/JordanLogo.jpg);
     background-position: 50%;
 }
