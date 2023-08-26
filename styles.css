@@ -29,7 +29,7 @@ body {
 .landing-page-conatiner-1 {
     background: #212020;
     height: 725;
-    max-width: 100000px;
+    max-width: 10000px;
     background-image: url(Images/BackgroundImages/JordanLogo.jpg);
     background-position: 50%;
 }
@@ -267,7 +267,6 @@ body {
   font-size: 45px;
   margin: auto;
   color: black;
-  padding: 9px 16px;
 }
 
 /* Company Pages - Image Gallery */
@@ -287,8 +286,13 @@ h1 {
 }
 
 /* Create four equal columns that floats next to each other */
-.column {
+.column-4 {
   float: left;
+  width: 25%;
+}
+
+.column-2 {
+  float: right;
   width: 50%;
 }
 
