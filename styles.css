@@ -292,8 +292,13 @@ h1 {
 }
 
 .column-2 {
-  float: right;
+  float: left;
   width: 50%;
+}
+
+.column-3 {
+  float: left;
+  width: 33%;
 }
 
 /* Clear floats after rows */ 
@@ -307,6 +312,20 @@ h1 {
 .content {
   padding: 6px 20px;
   text-align: center;
+}
+
+.content h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content img {
+  height: 300px;
+  object-fit: contain;
+}
+
+.content p {
+  font-size: 14;
 }
 
 .content-round-button {
