@@ -95,7 +95,7 @@ function updateNumberOfReviews(newCount) {
 // updateNumberOfReviews(2);
 
 function getImageURL(baseDir, imageNumber) {
-    return "Images/ProductImages/" + baseDir + "Image" + imageNumber + ".jpg"
+    return "Images/ProductImages/" + baseDir + "Image" + imageNumber + ".webp"
 }
 
 function createReviewElement(review) {

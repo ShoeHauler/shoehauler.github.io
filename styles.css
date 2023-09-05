@@ -37,7 +37,6 @@ body {
 .landing-page-conatiner-2 {
     /*background-image: url(Images/BackgroundImages/JordanLogo.jpg); */
     background: white;
-    width: 1280;
     overflow: hidden;
     text-align: center;
     color: black;
@@ -381,11 +380,7 @@ h1 {
 }
 
 
-
-
-
 /* ----------------------- Product Page Styles -------------------------- */
-
 
 
 img,
