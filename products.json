@@ -80,11 +80,11 @@
     },
     {
         "id": "3",
-        "name": "Nike Dunk Low Light Sail Bone",
+        "name": "Nike Dunk Low Light Sail Bone (Womens)",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
         "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",
-        "imageCount": 7,
+        "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": []
     },
@@ -100,21 +100,41 @@
     },
     {
         "id": "5",
-        "name": "Nike Dunk Low Vintage Navy (Womens)",
+        "name": "Nike Dunk Low Cacao (Womens)",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
-        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",
-        "imageCount": 7,
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Cacao/Low/",
+        "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": []
     },
     {
         "id": "6",
+        "name": "Nike Dunk Low Vintage Navy (Womens)",
+        "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
+        "price": "£50",
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Vintage Navy/Low/",
+        "imageCount": 10,
+        "sizesNotAvailable": [],
+        "reviews": []
+    },
+    {
+        "id": "7",
         "name": "Nike Dunk Low UNC (2021)",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
-        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",
-        "imageCount": 7,
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk UNC/Low/",
+        "imageCount": 10,
+        "sizesNotAvailable": [],
+        "reviews": []
+    },
+    {
+        "id": "8",
+        "name": "Nike Dunk Low Michigan State",
+        "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
+        "price": "£50",
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Michigan State/Low/",
+        "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": []
     }
