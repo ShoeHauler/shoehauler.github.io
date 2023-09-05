@@ -16,13 +16,13 @@ footer {
     background-color: #c8c7c7;
     color: #ababab;
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trade Gothic Bold Condensed', sans-serif;
 }
 
 body {
     margin: 0;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Trade Gothic Bold Condensed', sans-serif;
     color: black;
 } 
 
@@ -361,4 +361,285 @@ h1 {
   .column {
     width: 100%;
   }
+}
+
+
+
+
+
+/* ----------------------- Product Page Styles -------------------------- */
+
+
+
+img,
+.product-info {
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    border-radius: 8px; /* Add rounded corners */
+}
+/* ... Previous styles ... */
+
+/* Style for the product page container */
+.product-page {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Style for the image selection list */
+.image-selection-list {
+    width: 100px; /* Adjust the width as needed */
+    text-align: center;
+}
+
+.image-selection-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.image-selection-list li {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.image-selection-list li img {
+    max-width: 100%;
+    height: 70px;
+}
+
+/* Style for the product images */
+.product-images {
+    width: calc(50% - 100px); /* Adjust the width as needed */
+}
+
+/* Style for the product image box */
+.product-image-box {
+    text-align: center;
+}
+
+#product-image {
+    max-width: 100%;
+    height: auto;
+    border: none;
+    border-radius: 8px;
+    margin-top: 16px;
+    background-color: #f7f7f7;
+}
+
+/* Style for the product details */
+.product-details {
+    width: 40%;
+    padding: 75x;
+    margin-left: 20px; /* Add margin to separate from the image */
+    border-radius: 8px; /* Add rounded corners */
+    background: none;
+}
+
+.size-label {
+    margin-bottom: 10px; /* Add space between label and size options */
+}
+
+
+.product-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 16px;
+    margin-bottom: 15px; /* Added more spacing after description */
+}
+
+.product-price {
+    font-size: 20px;
+    margin-bottom: 15px; /* Added more spacing before size selection */
+}
+
+/* Style for the size selection dropdown */
+#size-select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Added more spacing before buttons */
+}
+
+/* Style for the favorite button */
+.favorite {
+    display: block;
+    width: 100%;
+    padding: 18px 24px;
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: 1px solid #000; /* Black border */
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16;
+    border-radius: 30px; /* Rounded corners */
+    text-align: center; /* Center text horizontally */
+}
+
+.favorite:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Style for the add to cart button */
+.add-to-cart {
+    display: block;
+    width: 100%;
+    padding: 18px 24px;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16;
+    border-radius: 30px; /* Rounded corners */
+    text-align: center; /* Center text horizontally */
+}
+
+.add-to-cart:hover {
+    background-color: #333; /* Darker black background on hover */
+}
+
+/* ... Previous styles ... */
+
+/* Style for the size label */
+.size-label {
+    margin-bottom: 10px; /* Add space between label and size options */
+}
+
+/* Style for the size options container */
+.size-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Style for each size option */
+.size-option {
+    width: 80px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the horizontal spacing between options */
+    margin-bottom: 10px; /* Adjust the vertical spacing between rows */
+    background-color: #fff; /* White background */
+    border: 1px solid #ccc; /* Light grey outline */
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Style for the selected size option */
+.size-option.selected {
+    border: 1px solid #000; /* Black outline when selected */
+}
+
+/* Style for the selling fast placeholder (blank space) */
+.selling-fast-placeholder {
+    margin-top: 20px; /* Add spacing from the text above */
+    margin-bottom: 20px; /* Add spacing from the text below */
+}
+
+/* Style for the selling fast message */
+.selling-fast-message {
+    display: none; /* Initially hidden */
+    color: orange;
+    text-align: center;
+    margin-top: 10px; /* Add spacing from the product price */
+}
+
+/* Style for the reviews button */
+.reviews-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 20px 20px; /* Increase padding to add more space */
+    cursor: pointer;
+    margin-top: 20px; /* Add spacing between reviews button and favorite button */
+}
+
+/* Style for the text in the button */
+.reviews-button-text {
+    flex-grow: 1;
+    text-align: center;
+    color: black; /* Light shade of grey */
+    font-size: 16px;
+}
+
+/* Style for the arrow image */
+.arrow-image {
+    width: 20px; /* Adjust the width of the arrow image */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 10px; /* Adjust spacing between text and image */
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+    transform: rotate(90deg); /* Rotate the image 90 degrees clockwise */
+}
+
+/* Style for reviews */
+.review {
+    margin-bottom: 20px; /* Add spacing between reviews */
+}
+
+/* Style for star ratings and plain English ratings on the same line */
+.rating {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 5px; /* Add spacing between rating and review text */
+}
+
+/* Style for star images */
+.stars {
+    font-size: 24px; /* Adjust the size of stars */
+    color: gold;
+}
+
+/* Style for plain English ratings */
+.plain-rating {
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Style for review text */
+.review-text {
+    font-size: 16px;
+}
+
+/* Style for user information */
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Style for profile pictures */
+.user-info img {
+    width: 40px; /* Adjust the size of profile pictures */
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Style for usernames */
+.username {
+    font-weight: bold;
+}
+
+/* Style for review dates */
+.date {
+    color: #777;
+}
+
+/* Style for sold-out sizes */
+.sold-out {
+    color: #999; /* Grayed out color for sold-out sizes */
+    cursor: not-allowed; /* Show the "not-allowed" cursor for disabled options */
+}
+
+/* Style for disabled sizes (if needed) */
+.size-option[disabled] {
+    color: red
 }

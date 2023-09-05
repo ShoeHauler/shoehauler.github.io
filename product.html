@@ -1,0 +1,138 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shoe Hauler - Product</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <div class="topribbon">
+        <h1>Shoe Hauler</h1>
+        <a href="about.html">Product</a>
+        <a href="contact.html">Contact</a>
+        <div class="dropdown">
+            <button class="dropbtn">Products</button>
+            <div class="dropdown-content">
+              <a href="CompanyPages/Nike/Nike.html">Nike</a>
+              <a href="CompanyPages/Addidas.html">Addidas</a>
+              <a href="CompanyPages/Balenciaga.html">Balenciaga</a>
+              <a href="CompanyPages/Balenciaga.html">Bape</a>
+              <a href="CompanyPages/Balenciaga.html">Travis Scott</a>
+            </div>
+        </div> 
+        <a href="index.html">Home</a>
+    </div>
+    <body>
+        <div class="product-page">
+            <div class="image-selection-list">
+                <ul>
+                    <!-- <li><img src="product-image1.jpg" alt="Thumbnail 1" onclick="changeImage('product-image1.jpg')"></li>
+                    <li><img src="product-image2.jpg" alt="Thumbnail 2" onclick="changeImage('product-image2.jpg')"></li>
+                    <li><img src="product-image3.jpg" alt="Thumbnail 3" onclick="changeImage('product-image3.jpg')"></li> -->
+                    <!-- Add more thumbnail images as needed -->
+                </ul>
+            </div>
+            <div class="product-images">
+                <div class="product-image-box">
+                    <img id="product-image" src="product-image1.jpg" alt="Product Image">
+                </div>
+            </div>
+    
+            <div class="selling-fast-placeholder"></div>
+            <div class="product-details">
+                <h1 id ="product-title" class="product-title">Loading</h1>
+                <p id ="product-description" class="product-description">Loading</p>
+                <p id ="product-price" class="product-price">Loading</p>
+                <div class="selling-fast-message" id="selling-fast-message">Just a few left. Order soon.</div>
+                <!-- Size label and options -->
+                <div class="size-label">Size (UK):</div>
+                <div class="size-options">
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 3.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 4</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 4.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 5</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 5.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 6</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 6.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 7</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 7.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 8</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 8.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 9</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 9.5</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 10</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 11</div>
+                    <div class="size-option" data-selling-fast="false" onclick="selectSize(this)">UK 11.5</div>
+                    <div class="size-option" data-selling-fast="true" onclick="selectSize(this)">UK 12</div>
+                </div>
+    
+    
+                <button class="add-to-cart">Add to Cart</button>
+                <button class="favorite">Favorite</button> <!-- Replace "Buy Now" with "Favorite" -->
+                
+                <div class="reviews-button" onclick="toggleReviews()">
+                    <div class="reviews-button-text">Reviews (0)</div>
+                    <img src="Images/Icons/arrow.png" alt="Arrow" class="arrow-image" id="arrow-image">
+                </div>
+                
+            
+                <!-- Reviews (hidden by default) -->
+                <div class="reviews" id="reviews" style="display: none;">
+                    <!-- Review 1 -->
+                    <div class="review">
+                        <div class="rating">
+                            <div class="stars">
+                                ★★★☆☆ <!-- Three out of five stars -->
+                            </div>
+                            <div class="plain-rating">
+                                3 Stars
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem.
+                        </p>
+                        <div class="user-info">
+                            <img src="profile1.jpg" alt="User 1">
+                            <div class="user-details">
+                                <div>
+                                    <p class="username">User 1</p>
+                                    <p class="date">July 15, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            
+                    <!-- Review 2 -->
+                    <div class="review">
+                        <div class="rating">
+                            <div class="stars">
+                                ★★★★☆ <!-- Four out of five stars -->
+                            </div>
+                            <div class="plain-rating">
+                                4 Stars
+                            </div>
+                        </div>
+                        <p class="review-text">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <div class="user-info">
+                            <img src="profile2.jpg" alt="User 2">
+                            <div class="user-details">
+                                <div>
+                                    <p class="username">User 2</p>
+                                    <p class="date">July 18, 2023</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more reviews as needed -->
+                </div>
+            </div>
+        </div>
+        <script src="product.js"></script>
+
+        <footer>
+            <p>All rights reserved to Shoehauler limited 2023 ©</p>
+        </footer>
+    </body>
+</html>
