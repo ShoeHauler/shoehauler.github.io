@@ -5,7 +5,7 @@
         "description": "A classic pair of Nike Low Dunk sneakers in black and white.",
         "price": "£50",
         "baseDir": "Nike/Sneakers/NikeDunks/Panda Dunks/Low/",
-        "imageCount": 8,
+        "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": [
             {
@@ -37,7 +37,7 @@
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
         "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/",
-        "imageCount": 6,
+        "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": [
             {
