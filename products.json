@@ -5,7 +5,7 @@
         "description": "A classic pair of Nike Low Dunk sneakers in black and white.",
         "price": "£50",
         "baseDir": "Nike/Sneakers/NikeDunks/Panda Dunks/Low/",
-        "imageCount": 7,
+        "imageCount": 8,
         "sizesNotAvailable": [],
         "reviews": [
             {
@@ -39,11 +39,78 @@
         "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/",
         "imageCount": 6,
         "sizesNotAvailable": [],
-        "reviews": []
+        "reviews": [
+            {
+                "username": "SneakerFan123",
+                "rating": 5,
+                "comment": "These sneakers are exceptional! The build quality is top-notch, and they are incredibly comfortable for all-day wear. I love the stylish design as well. Highly recommended!",
+                "pfp": "https://example.com/profiles/sneakerfan123.jpg",
+                "date": 1662412800000
+            },
+            {
+                "username": "ActiveRunner",
+                "rating": 5,
+                "comment": "I've put these sneakers through some serious miles, and they still look and feel fantastic. The durability is outstanding, and they provide excellent support. Definitely worth every penny!",
+                "pfp": "https://example.com/profiles/activerunner.jpg",
+                "date": 1662768000000
+            },
+            {
+                "username": "CasualWalker",
+                "rating": 4,
+                "comment": "These sneakers are comfortable and stylish. I wear them casually, and they've held up well. The quality is great, but I wish they were a tad more breathable.",
+                "pfp": "https://example.com/profiles/casualwalker.jpg",
+                "date": 1663123200000
+            },
+            {
+                "username": "FitnessFreak",
+                "rating": 5,
+                "comment": "Perfect sneakers for my gym workouts! They provide excellent stability and cushioning. The quality is evident, and I'm thrilled with my purchase.",
+                "pfp": "https://example.com/profiles/fitnessfreak.jpg",
+                "date": 1663478400000
+            },
+            {
+                "username": "TrendyShoeLover",
+                "rating": 4,
+                "comment": "These sneakers are stylish and comfortable, and I get compliments every time I wear them. The only drawback is that they tend to scuff easily, but I still adore them!",
+                "pfp": "https://example.com/profiles/trendyshoelover.jpg",
+                "date": 1663833600000
+            }            
+            
+        ]
     },
     {
         "id": "3",
         "name": "Nike Dunk Low Light Sail Bone",
+        "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
+        "price": "£50",
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",
+        "imageCount": 7,
+        "sizesNotAvailable": [],
+        "reviews": []
+    },
+    {
+        "id": "4",
+        "name": "Nike Dunk Low Medium Curry",
+        "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
+        "price": "£50",
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Medium Curry/Low/",
+        "imageCount": 10,
+        "sizesNotAvailable": [],
+        "reviews": []
+    },
+    {
+        "id": "5",
+        "name": "Nike Dunk Low Vintage Navy (Womens)",
+        "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
+        "price": "£50",
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",
+        "imageCount": 7,
+        "sizesNotAvailable": [],
+        "reviews": []
+    },
+    {
+        "id": "6",
+        "name": "Nike Dunk Low UNC (2021)",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
         "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",

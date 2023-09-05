@@ -405,8 +405,10 @@ img,
 
 /* Style for the image selection list */
 .image-selection-list {
+    overflow: scroll;
     width: 100px; /* Adjust the width as needed */
     text-align: center;
+    max-height: 650px;
 }
 
 .image-selection-list ul {
