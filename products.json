@@ -8,10 +8,17 @@
     },
     {
         "id": "2",
-        "name": "Nike Dunk High Black White Retro",
+        "name": "Nike Dunk Low Grey Fog",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
-        "images": ["image4.jpg", "image5.jpg"]
+        "images": ["Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/Image1.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/Image2.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/Image3.jpg","Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/Image4.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/Image5.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/Image6.jpg"]
+    },
+    {
+        "id": "3",
+        "name": "Nike Dunk Low Light Sail Bone",
+        "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
+        "price": "£50",
+        "images": ["Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/Image1.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/Image2.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/Image3.jpg","Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/Image4.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/Image5.jpg", "Images/ProductImages/Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/Image6.jpg"]
     }
 
 ]
