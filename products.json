@@ -4,13 +4,13 @@
         "name": "Nike Dunk Low Black White Retro (2021)",
         "description": "A classic pair of Nike Low Dunk sneakers in black and white.",
         "price": "£50",
-        "baseDir": "Nike/Sneakers/NikeDunks/Panda Dunks/Low/",
+        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk White Black/Low/",
         "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": [
             {
-                "username": "John Doe",
-                "rating": 3,
+                "username": "Anonymous",
+                "rating": 4,
                 "comment": "Great pair of shoes, very comfortable and stylish. Would recommend to anyone.",
                 "pfp": "https://plus.unsplash.com/premium_photo-1664391847942-f9c4562ad692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1366&q=80",
                 "date": 1639591017000

@@ -289,6 +289,7 @@ body {
   font-size: 45px;
   margin: auto;
   color: black;
+  padding: 12px;
 }
 
 /* Company Pages - Image Gallery */
@@ -342,7 +343,8 @@ h1 {
 }
 
 .content img {
-  height: 300px;
+  display: block;
+  height: 165px;
   object-fit: contain;
 }
 
@@ -450,8 +452,7 @@ img,
 /* Style for the product details */
 .product-details {
     width: 40%;
-    padding: 75x;
-    margin-left: 20px; /* Add margin to separate from the image */
+    margin-left: 8px; /* Add margin to separate from the image */
     border-radius: 8px; /* Add rounded corners */
     background: none;
 }
