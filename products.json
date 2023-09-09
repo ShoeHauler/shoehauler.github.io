@@ -41,38 +41,38 @@
         "sizesNotAvailable": [],
         "reviews": [
             {
-                "username": "SneakerFan123",
+                "username": "Anonymous",
                 "rating": 5,
                 "comment": "These sneakers are exceptional! The build quality is top-notch, and they are incredibly comfortable for all-day wear. I love the stylish design as well. Highly recommended!",
-                "pfp": "https://example.com/profiles/sneakerfan123.jpg",
+                "pfp": "Images/Icons/DefaultProfileImage.webp",
                 "date": 1662412800000
             },
             {
-                "username": "ActiveRunner",
+                "username": "Anonymous",
                 "rating": 5,
                 "comment": "I've put these sneakers through some serious miles, and they still look and feel fantastic. The durability is outstanding, and they provide excellent support. Definitely worth every penny!",
-                "pfp": "https://example.com/profiles/activerunner.jpg",
+                "pfp": "Images/Icons/DefaultProfileImage.webp",
                 "date": 1662768000000
             },
             {
-                "username": "CasualWalker",
+                "username": "Anonymous",
                 "rating": 4,
                 "comment": "These sneakers are comfortable and stylish. I wear them casually, and they've held up well. The quality is great, but I wish they were a tad more breathable.",
-                "pfp": "https://example.com/profiles/casualwalker.jpg",
+                "pfp": "Images/Icons/DefaultProfileImage.webp",
                 "date": 1663123200000
             },
             {
-                "username": "FitnessFreak",
+                "username": "Freddie F***c",
                 "rating": 5,
                 "comment": "Perfect sneakers for my gym workouts! They provide excellent stability and cushioning. The quality is evident, and I'm thrilled with my purchase.",
-                "pfp": "https://example.com/profiles/fitnessfreak.jpg",
+                "pfp": "Images/Icons/DefaultProfileImage.webp",
                 "date": 1663478400000
             },
             {
-                "username": "TrendyShoeLover",
+                "username": "Trendy s***lover",
                 "rating": 4,
                 "comment": "These sneakers are stylish and comfortable, and I get compliments every time I wear them. The only drawback is that they tend to scuff easily, but I still adore them!",
-                "pfp": "https://example.com/profiles/trendyshoelover.jpg",
+                "pfp": "Images/Icons/DefaultProfileImage.webp",
                 "date": 1663833600000
             }            
             
