@@ -82,6 +82,8 @@ function toggleReviews() {
 
 let productId = new URLSearchParams(location.search).get("productId")
 
+document.getElementById("checkout-link").href = "checkout.html?productId=" + productId
+
 loadProductData(productId)
 
 // Function to update the number of reviews
