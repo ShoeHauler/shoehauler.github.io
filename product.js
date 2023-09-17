@@ -1,3 +1,28 @@
+// Set Checkout button to correct href
+document.addEventListener("DOMContentLoaded", function() {
+    // Function to get the value of a URL parameter by name
+    function getUrlParam(name) {
+        const urlParams = new URLSearchParams(window.location.search);
+        return urlParams.get(name);
+    }
+
+    // Get the product ID from the URL
+    const productId = getUrlParam("productId");
+
+    // Add a click event listener to the checkout button
+    const checkoutButton = document.getElementById("add-to-cart");
+    checkoutButton.addEventListener("click", function() {
+        // Check if a valid productId exists
+        if (productId !== null) {
+            // Navigate to checkout.html with the productId in the URL
+            window.location.href = `checkout.html?productId=${productId}`;
+        } else {
+            alert("Invalid product ID. Please select a product first.");
+        }
+    });
+});
+
+
 function changeImage(imageUrl) {
     const productImage = document.getElementById('product-image');
     productImage.src = imageUrl;
