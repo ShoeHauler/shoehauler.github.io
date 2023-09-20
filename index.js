@@ -11,6 +11,18 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
+// Storing data in localStorage
+localStorage.setItem('username', 'john_doe');
+localStorage.setItem('isLoggedIn', 'true');
+
+// Retrieving data from localStorage
+const username = localStorage.getItem('username'); // Returns 'john_doe'
+const isLoggedIn = localStorage.getItem('isLoggedIn'); // Returns 'true'
+
+console.log(username);
+console.log(isLoggedIn);
+
+
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");

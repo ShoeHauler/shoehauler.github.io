@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const productId = getUrlParam("productId");
 
     // Add a click event listener to the checkout button
-    const checkoutButton = document.getElementById("add-to-cart");
+    const checkoutButton = document.getElementsByClassName("add-to-cart")[0];
     checkoutButton.addEventListener("click", function() {
         // Check if a valid productId exists
         if (productId !== null) {
@@ -20,8 +20,71 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Invalid product ID. Please select a product first.");
         }
     });
+
+    updateFavoriteButton(productId)
 });
 
+function getUrlParam(name) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(name);
+}
+
+function updateFavoriteButton(productId) {
+    const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+    const favoriteButton = document.getElementsByClassName("favorite")[0];
+  
+    if (favorites.includes(productId)) {
+        favoriteButton.textContent = 'Favorited';
+        favoriteButton.onclick = removeFromFavorites
+    } else {
+        favoriteButton.textContent = 'Favorite';
+        favoriteButton.onclick = addToFavorites;
+    }
+  }
+  
+
+function addToFavorites() {
+    // Get the product ID from the URL
+    const productId = getUrlParam("productId");
+
+    // Get the current favorites from localStorage or initialize an empty array
+    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  
+    // Check if the product ID is not already in favorites
+    if (!favorites.includes(productId)) {
+      favorites.push(productId);
+  
+      // Save the updated favorites list back to localStorage
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+  
+      // Update the UI or perform any other actions to indicate that the item is now favorited
+      updateFavoriteButton(productId);
+      alert('Added to favorites!');
+    }
+  }
+  
+  // Function to remove a product ID from favorites
+  function removeFromFavorites() {
+    // Get the product ID from the URL
+    const productId = getUrlParam("productId");
+
+    // Get the current favorites from localStorage or initialize an empty array
+    let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  
+    // Check if the product ID is in favorites
+    const index = favorites.indexOf(productId);
+    if (index !== -1) {
+      // Remove the product ID from favorites
+      favorites.splice(index, 1);
+  
+      // Save the updated favorites list back to localStorage
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+  
+      // Update the UI or perform any other actions to indicate that the item is now unfavorited
+      alert('Removed from favorites!');
+      updateFavoriteButton(productId);
+    }
+  }
 
 function changeImage(imageUrl) {
     const productImage = document.getElementById('product-image');

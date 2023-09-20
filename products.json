@@ -4,7 +4,7 @@
         "name": "Nike Dunk Low Black White Retro (2021)",
         "description": "A classic pair of Nike Low Dunk sneakers in black and white.",
         "price": "£50",
-        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk White Black/Low/",
+        "baseDir": "Nike/Sneakers/NikeDunks/Dunk Low Retro White Black Panda/",
         "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": [
@@ -36,7 +36,7 @@
         "name": "Nike Dunk Low Grey Fog",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
-        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Grey Fog/Low/",
+        "baseDir": "Nike/Sneakers/NikeDunks/Dunk Low Grey Fog/",
         "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": [
@@ -83,7 +83,7 @@
         "name": "Nike Dunk Low Light Sail Bone (Womens)",
         "description": "A classic pair of Nike Dunk sneakers in black and white with a high shoe top. Rock the highly popular black and white colours with extra heel support and comfort.",
         "price": "£50",
-        "baseDir": "Nike/Sneakers/NikeDunks/Nike Dunk Light Sail Bone/Low/",
+        "baseDir": "Nike/Sneakers/NikeDunks/Dunk Low Sail Light Bone (Women's)/",
         "imageCount": 10,
         "sizesNotAvailable": [],
         "reviews": []
