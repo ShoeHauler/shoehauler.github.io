@@ -818,3 +818,28 @@ img,
   height: auto;
   width: auto;
 }
+
+/* Trending This Week */
+.trending-this-week {
+  background-color: transparent;
+}
+
+.trending-this-week .holder {
+  padding: 50px 0;
+  overflow: scroll;
+  white-space: nowrap;
+  padding-top: 0px;
+}
+
+.trending-this-week h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-left: 5px
+}
+
+.trending-this-week img {
+  padding: 10px;
+  width: 300px;
+  height: 300px;
+}

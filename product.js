@@ -59,7 +59,6 @@ function addToFavorites() {
   
       // Update the UI or perform any other actions to indicate that the item is now favorited
       updateFavoriteButton(productId);
-      alert('Added to favorites!');
     }
   }
   
@@ -81,7 +80,6 @@ function addToFavorites() {
       localStorage.setItem('favorites', JSON.stringify(favorites));
   
       // Update the UI or perform any other actions to indicate that the item is now unfavorited
-      alert('Removed from favorites!');
       updateFavoriteButton(productId);
     }
   }
